@@ -2,13 +2,13 @@
 Few-shot NEU-DET (FS-ND)  
 This is the dataset used in our paper Few-Shot Steel Surface Defect Detection (will be published soon). The dataset is reconstructed from the famous [NEU-DET](https://ieeexplore.ieee.org/abstract/document/8709818) dataset and designed specially for few-shot defect detection.  
 The FS-ND can be downloaded [here](https://drive.google.com/drive/folders/1Somtykp_DwqGTe5by9PEfPDxPqYRFu-L)
-If you use the FS-ND, please cite our paper:
-@article{wang2021few,
-  title={Few-Shot Steel Surface Defect Detection},
-  author={Wang, Haohan and Li, Zhuoling and Wang, Haoqian},
-  journal={IEEE Transactions on Instrumentation and Measurement},
-  year={2021},
-  publisher={IEEE}
+If you use the FS-ND, please cite our paper:  
+@article{wang2021few,  
+  title={Few-Shot Steel Surface Defect Detection},  
+  author={Wang, Haohan and Li, Zhuoling and Wang, Haoqian},  
+  journal={IEEE Transactions on Instrumentation and Measurement},  
+  year={2021},  
+  publisher={IEEE}  
 }
 
 ## How to use FS-ND?
