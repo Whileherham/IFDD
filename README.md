@@ -2,6 +2,14 @@
 Few-shot NEU-DET (FS-ND)  
 This is the dataset used in our paper Few-Shot Steel Surface Defect Detection (will be published soon). The dataset is reconstructed from the famous [NEU-DET](https://ieeexplore.ieee.org/abstract/document/8709818) dataset and designed specially for few-shot defect detection.  
 The FS-ND can be downloaded [here](https://drive.google.com/drive/folders/1Somtykp_DwqGTe5by9PEfPDxPqYRFu-L)
+If you use the FS-ND, please cite our paper:
+@article{wang2021few,
+  title={Few-Shot Steel Surface Defect Detection},
+  author={Wang, Haohan and Li, Zhuoling and Wang, Haoqian},
+  journal={IEEE Transactions on Instrumentation and Measurement},
+  year={2021},
+  publisher={IEEE}
+}
 
 ## How to use FS-ND?
 There are 4 zip files in the link above: **NEU-DET-METATRAIN**, which is used for meta-training (base training), and **5shot1-100**, **10shot1-100** and **30shot1-100**, which are used for meta-testing (few-shot fine-tuning). For k-shot experiment, you should first train your model with **NEU-DET-METATRAIN**, then evaluate it with the corresponding **kshot1-100**, where k=5,10,30.  
